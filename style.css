@@ -1,0 +1,69 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+.heading
+{
+    background-color: #e6af5f;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+#start
+{
+    font-size: 18px;
+}
+#number_of_objects
+{
+    font-size: 18px;
+    background-color: #ff9100;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px;
+}
+#status
+{
+    font-size: 18px;
+    background-color: #bf1717;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    line-height: 3;
+    text-align: center;
+}
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 75px;
+    animation-name: color_canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color_canvas
+{
+    from {
+        box-shadow: 5px 5px 38px rebeccapurple;
+    }
+    to {
+        box-shadow: 5px 5px 38px royalblue;
+    }
+}
